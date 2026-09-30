@@ -1,0 +1,12 @@
+{
+  "category": {
+    "type": "choice",
+    "instructions": "Classify the email by its primary purpose.",
+    "criteria": {
+      "receipt": "A receipt confirming a completed purchase or payment",
+      "account": "An account security notice or service warning requiring attention",
+      "promotion": "Advertising an offer, discount, or sale",
+      "personal": "A direct personal message requesting a conversation or reply"
+    }
+  }
+}

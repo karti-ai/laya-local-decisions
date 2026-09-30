@@ -1,0 +1,4 @@
+{"id":"synthetic-001","state":"Payment receipt: Thank you for your payment of $42. Your order #4411 is confirmed and paid. Keep this receipt for your records.","expected":"receipt"}
+{"id":"synthetic-002","state":"Action required: Your account will be suspended tomorrow unless you update your expired payment method.","expected":"account"}
+{"id":"synthetic-003","state":"Weekend sale! Save 30% on shoes and jackets. Shop our limited-time deals before Sunday.","expected":"promotion"}
+{"id":"synthetic-004","state":"Hi, are you free for dinner on Saturday? Let me know which time works for you.","expected":"personal"}

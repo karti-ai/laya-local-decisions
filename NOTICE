@@ -1,0 +1,8 @@
+Laya local decisions recipe
+Copyright 2026 Karti AI contributors
+
+This repository contains deployment instructions and original helper scripts.
+It uses Laya by Nandakishor M / Convai Innovations, distributed separately
+under Apache-2.0: https://github.com/NandhaKishorM/laya
+The model weights, PyTorch, Transformers, and other dependencies retain their
+own licenses and attribution. No model weights are bundled here.

@@ -1,0 +1,39 @@
+{
+  "torch": "2.8.0+cu128",
+  "python": "3.13.12",
+  "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+  "cpu_threads": 4,
+  "results": [
+    {
+      "device": "cpu",
+      "model": "typed-decisions",
+      "revisions": {
+        "typed-decisions": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851"
+      },
+      "single_median_ms": 143.12,
+      "single_p95_ms": 157.05,
+      "batch_states": 4,
+      "batch_median_ms": 538.64,
+      "batch_states_per_second": 7.43,
+      "iterations": 12,
+      "warmup_calls_per_shape": 3,
+      "cpu_fallbacks": 0
+    },
+    {
+      "device": "cuda",
+      "model": "typed-decisions",
+      "revisions": {
+        "typed-decisions": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851"
+      },
+      "single_median_ms": 14.1,
+      "single_p95_ms": 14.26,
+      "batch_states": 4,
+      "batch_median_ms": 25.08,
+      "batch_states_per_second": 159.52,
+      "iterations": 12,
+      "warmup_calls_per_shape": 3,
+      "cpu_fallbacks": 0
+    }
+  ],
+  "conditions": "Four synthetic short English messages; one four-option choice question per state; 3 warmups per shape; CUDA synchronized; no HTTP, provider access, or email changes. Other workloads and machines will differ."
+}
